@@ -15,62 +15,52 @@
         border-bottom-left-radius: 0 !important;
         border-top-left-radius: 0 !important;
       }
-      .col-4,
-      .col-8 {
-        padding: 0;
-      }
-      .outline {
-        width: 100vw;
-        height: 100vh;
+
+      body {
+        width: 100%;
+        height: 100%;
       }
     </style>
   </head>
   <body>
-    <div class="outline d-flex justify-content-center align-items-center">
-      <div class="container">
-        <div class="row d-flex">
-          <div class="col-lg-4 box-shadow d-sm-none d-xl-block d-flex p-0">
-            <div class="card">
-              <img
-                src="./images/2.png"
-                class="card-img-top"
-                alt="..."
-                style="max-height: 250px"
-              />
-              <div class="card-body">
-                <h5 class="card-title ms-4 mt-4">Writer</h5>
-                <h1 class="ms-4">F. Scott Fitzgerald</h1>
-                <h5 class="mb-4 ms-4">Saint Paul, Minnesota, U.S.</h5>
-              </div>
-            </div>
+    <div class="row d-flex justify-content-center align-items-center">
+      <div class="col-lg-4 d-md-none align-items-center">
+        <div class="card">
+          <img
+            src="./images/2.png"
+            class="card-img-top"
+            alt="..."
+            style="max-height: 300px"
+          />
+          <div class="card-body">
+            <h5 class="card-title ms-4 mt-4">Writer</h5>
+            <h1 class="ms-4">F. Scott Fitzgerald</h1>
+            <h5 class="mb-4 ms-4">Saint Paul, Minnesota, U.S.</h5>
           </div>
-          <div class="col-lg-8 d-none d-sm-block p-0 bg-light border">
-            <div
-              class="contain d-flex justify-content-center align-items-center"
-            >
-              <div class="card" style="max-width: 680px; max-height: 400px">
-                <div class="row g-0">
-                  <div class="col">
-                    <img
-                      src="./images/1.webp"
-                      class="img-fluid rounded-start"
-                      alt="..."
-                    />
-                  </div>
-                  <div class="col-8">
-                    <div class="card-body">
-                      <h5 class="card-title mt-2 ms-4">Writer</h5>
-                      <h1 class="card-title ms-4">F. Scott Fitzgerald</h1>
-                      <h3 class="ms-4">Saint Paul, Minnesota, U.S.</h3>
-                      <p class="card-text m-4">
-                        American novelist, essayist, and short story writer.Best
-                        known for his novels depicting the Jazz Age—a term he
-                        popularized.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
+        </div>
+      </div>
+
+      <div
+        class="card col-lg-8 d-none d-md-block align-items-center"
+        style="max-width: 680px; max-height: 400px"
+      >
+        <div class="row g-0">
+          <div class="col">
+            <img
+              src="./images/1.webp"
+              class="img-fluid rounded-start"
+              alt="..."
+            />
+          </div>
+          <div class="col-8">
+            <div class="card-body">
+              <h5 class="card-title mt-2 ms-4">Writer</h5>
+              <h1 class="card-title ms-4">F. Scott Fitzgerald</h1>
+              <h3 class="ms-4">Saint Paul, Minnesota, U.S.</h3>
+              <p class="card-text m-4">
+                American novelist, essayist, and short story writer.Best known
+                for his novels depicting the Jazz Age—a term he popularized.
+              </p>
             </div>
           </div>
         </div>
